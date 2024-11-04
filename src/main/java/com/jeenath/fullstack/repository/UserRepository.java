@@ -1,0 +1,7 @@
+package com.jeenath.fullstack.repository;
+
+import com.jeenath.fullstack.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+}
